@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WriteReviewPage"
+    android:padding="10dp">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/gameImage"
+                    android:src="@drawable/game1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/gameName"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Avengers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="Release Date May 4th, 2012"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+                <EditText
+                    android:id="@+id/reviewText"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:gravity="top"
+                    android:hint="Write your review here"
+                    android:padding="7dp">
+
+                </EditText>
+
+                <Button
+                    android:id = "@+id/submitBtn"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:text="Submit"
+                    android:backgroundTint="@color/light_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </Button>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

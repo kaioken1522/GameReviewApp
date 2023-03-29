@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_loginPage"
+            android:title="Login Page"/>
+
+
+        <item android:id="@+id/nav_gamePage"
+            android:title="Game Page"/>
+
+
+        <item
+            android:id="@+id/nav_userProfile"
+
+            android:title="Your Profile"/>
+
+<!--        <item-->
+<!--            android:id="@+id/nav_readReview"-->
+
+<!--            android:title="Read Reviews"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_writeReview"-->
+
+<!--            android:title="Write Reviews"/>-->
+
+        <item
+            android:id="@+id/nav_signup"
+            android:title="Signup"
+            />
+
+        <item
+            android:id="@+id/nav_location"
+            android:title="User Location"
+            />
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>
